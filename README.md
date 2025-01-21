@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jotion
 
-## Getting Started
+**Jotion** is a Next.js-powered web application inspired by Notion, providing a sleek and responsive interface for note-taking, document organization, and collaboration. It combines the flexibility of a Notion-like layout with modern web technologies to offer a seamless user experience.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Rich Text Editing**: Create and format notes with an intuitive editor.
+- **Drag-and-Drop Layouts**: Organize content easily with flexible block structures.
+- **Real-time Updates**: Synchronize changes instantly across multiple devices.
+- **Multi-Page Structure**: Support for hierarchical organization of notes and documents.
+- **Authentication**: Secure login and session management.
+- **Cloud Deployment**: Easily deployable on Vercel for scalability.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **Frontend**: Next.js, React, TypeScript
+- **Styling**: Tailwind CSS for a clean and responsive UI
+- **Database**: Firebase Firestore for cloud data storage
+- **Authentication**: Firebase Auth for user management
+- **State Management**: React Context API
 
-To learn more about Next.js, take a look at the following resources:
+## Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ensure you have the following installed before proceeding:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/)
+- A Firebase project with Firestore enabled
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/IsThisHarsh/Jotion.git
+   cd Jotion
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment variables**:
+
+   - Rename `.env.example` to `.env.local`
+   - Add your Firebase project credentials (API key, auth domain, project ID, etc.)
+
+4. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+## Usage
+
+1. **Open the application**:  
+   Navigate to `http://localhost:3000` in your browser.
+
+2. **Login** using Firebase authentication.
+
+3. **Create and manage notes** using the editor interface.
+
+## Screenshots
+
+![Dashboard](screenshots/dashboard.png)  
+*Example dashboard showcasing document organization.*
+
+![Note Editing](screenshots/note_editing.png)  
+*Rich text editing features in action.*
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a feature branch (`feature/my-feature`).
+3. Commit your changes and push to GitHub.
+4. Submit a pull request for review.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+For further details, visit the repository: [Jotion GitHub Repo](https://github.com/IsThisHarsh/Jotion).
