@@ -26,9 +26,9 @@
 
 - **Frontend**: Next.js, React, TypeScript
 - **Styling**: Tailwind CSS for a clean and responsive UI
-- **Database**: Firebase Firestore for cloud data storage
-- **Authentication**: Firebase Auth for user management
-- **State Management**: React Context API
+- **Database**: Edgestore for cloud data storage
+- **Authentication**: Clerk authentication for user management
+- **State Management**: zustand
 
 ## Prerequisites
 
